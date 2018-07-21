@@ -2,88 +2,63 @@
 
 A decentralized application that facilitates sponsorships and donations (in ether), sans any intermediaries.
 
+## Tools and Techs
 
-## Getting Started
+1. Solidity
+2. Remix
+3. Web3.js
+4. Metamask
+5. Mocha testing framework
+6. Ganache - personal blockchain
+7. infura - access to the Ethereum network
+8. truffle-hd-wallet-provider
+9. Rinkeby faucet
+10. React.js  (create-react-app, semantic-ui-react)
+11. Next.js
 
-### Prerequisites
+## Running
 
-What things you need to install the software and how to install them
+* Open the terminal
+* Clone this repo onto your local PC `git clone https://github.com/smitrajput/D-Crowdfund.git`
+* Change into the cloned-repo directory `cd D-Crowdfund`
+* Run the dApp `npm run dev`
+* Open `http://localhost:3000/` in your browser 
 
-web3, mocha, 
+     :tada::heart_eyes::sunglasses::angel::tada:
+      
+The home page: 
 
-```
-Give examples
-```
+![a](https://user-images.githubusercontent.com/22425782/43033489-e3b33484-8ce8-11e8-9aea-eea1c3403148.jpeg)
 
-### Installing
+Scroll down for seeing registered events (needs): 
 
-A step by step series of examples that tell you how to get a development env running
+![b](https://user-images.githubusercontent.com/22425782/43033491-ee2679f8-8ce8-11e8-8998-9141af00cde0.jpeg)
 
-Say what the step will be
+Click on 'Create Need' to register a need:
 
-```
-Give the example
-```
+![c](https://user-images.githubusercontent.com/22425782/43033495-f2e2b3b2-8ce8-11e8-9083-2d9c5ca2788c.jpeg)
 
-And repeat
+Or click on any registered need to see its details and contribute to it if you feel it's worth it:
 
-```
-until finished
-```
+![d](https://user-images.githubusercontent.com/22425782/43033497-f7c07216-8ce8-11e8-982e-05e292cc832c.jpeg)
 
-End with an example of getting some data out of the system or using it for a little demo
+Click on 'View Requests' to see the list of spending requests submitted by the owner to the need for approval by donors/sponsors:
 
-## Running the tests
+![e](https://user-images.githubusercontent.com/22425782/43033499-fcec9968-8ce8-11e8-85f6-4793042a4317.jpeg)
 
-Explain how to run the automated tests for this system
+Now all sonsors/donors who agree to a request will 'Approve' it. Once the number of 'approvals' crosses half of the total, the owner can 'Finalize the request to release the fund from the application contract to the service provider.
 
-### Break down into end to end tests
+Click on 'Add Request', if you're an owner of a need and wish to submit a spending request:
 
-Explain what these tests test and why
+![f](https://user-images.githubusercontent.com/22425782/43033504-047f4fea-8ce9-11e8-92b2-4881980e2397.jpeg)
 
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
-
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
-
-## Versioning
-
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+[Smit Rajput](https://github.com/smitrajput), 
+[GGJ Nivas](https://github.com/N1vas)
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+A special thanks to the entire [ConsenSys](https://new.consensys.net/) team and specifically the mentors, for giving us the opportunity to build this product at their [hackathon](http://developer.consensysindia.com/hackathon/), and guiding us through it.
 
