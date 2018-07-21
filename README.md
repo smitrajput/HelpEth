@@ -9,10 +9,10 @@ A decentralized application that facilitates sponsorships and donations (in ethe
 3. Web3.js
 4. Metamask
 5. Mocha testing framework
-6. Ganache - personal blockchain
+6. Ganache - private blockchain
 7. infura - access to the Ethereum network
 8. truffle-hd-wallet-provider
-9. Rinkeby faucet
+9. Rinkeby faucet - for obtaining test ether
 10. React.js  (create-react-app, semantic-ui-react)
 11. Next.js
 
